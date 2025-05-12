@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(32, 178, 110);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #941c18;
+    background-color: lightsteelblue;
+}
+
+.headings{
+    font-size: 10vmin;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+#rst-btn{
+    height: 15vmin;
+    width: 70vmin;
+    font-size: 5vmin;
+    border: 2px solid black;
+    border-radius: 2vmin;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#new-btn{
+    height: 15vmin;
+    width: 70vmin;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 5vmin;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#msg{
+    color: white;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
+}
+
+/* chatGpt Code */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 178, 110);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+
+main h1 {
+    font-size: 5vw;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+.container {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    width: 90vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vmin;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+    font-size: 10vmin;
+    color: #941c18;
+    background-color: lightsteelblue;
+    cursor: pointer;
+}
+
+#rst-btn,
+#new-btn {
+    margin-top: 2vh;
+    padding: 1rem 2rem;
+    font-size: 4vmin;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgb(103, 162, 230);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#new-btn {
+    background-color: black;
+    color: white;
+}
+
+.msg-container {
+    margin-top: 2vh;
+    height: auto;
+}
+
+#msg {
+    font-size: 6vmin;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.hide {
+    display: none;
+} */
+
+/* Responsive Typography for Smaller Devices */
+/* @media screen and (max-width: 600px) {
+    main h1 {
+        font-size: 7vw;
+    }
+
+    #rst-btn,
+    #new-btn {
+        width: 80vw;
+        font-size: 5vw;
+    }
+
+    #msg {
+        font-size: 7vw;
+    }
+
+    .game {
+        width: 90vw;
+        height: 90vw;
+        gap: 3vw;
+    }
+
+    .box {
+        font-size: 12vw;
+    }
+} */
